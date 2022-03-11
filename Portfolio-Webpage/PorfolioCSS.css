@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: 'League Gothic', sans-serif;
+}
+.container
+{
+    width: 70%;
+}
+
+.mybg
+{
+    background-image: url(../Images/BG-IMG.jpg);
+    height: 300px;
+    border-bottom: 5px solid #00BFFF;
+
+    
+    
+    
+}
+.insidebg-div
+{
+    position: relative;
+    top: 15%;
+    
+    text-align: center;
+    
+    
+}
+.insidebg-div p
+{
+    color: #B0C4DE;
+    
+    letter-spacing: 2px;
+}
+#name
+{
+    font-weight: bold;
+    font-size:40px;
+    margin-bottom: 0;
+
+}
+#myjob
+{
+    text-decoration: underline;
+    font-size: large;
+    
+}
+.avater
+{
+    height: 140px;
+    width: 170px;
+    
+    
+
+}
+
+.objective-p
+{
+    text-align: center;
+    font-size: 40px;
+    padding-top: 30px;
+    
+}
+
+.title .col-4
+{
+    margin-top: 3%;
+}
+
+.title div p
+{
+    
+    text-align: center;
+    font-size: 60px;
+    font-weight: bolder;
+    opacity: 95%;
+    color: #B0C4DE;
+}
+.Study-card
+{
+    width: 300px;
+    height: 350px;
+    
+    border-left: solid 10px #00BFFF ;
+    border-bottom: solid 10px #00BFFF ;
+    
+   
+    
+}
+.Study-card p
+{
+    text-align: left;
+    font-size: larger;
+}
+.Study-card button
+{
+    
+    position: absolute;
+   
+    bottom: 0%;
+    margin-bottom: 10%;
+    
+    width: 100px;
+}
+.Study-card img
+{
+    margin-right: 1px;
+}
+.Study-card .title
+{
+    text-align: center;
+    padding-top: 5%;
+    font-size: xx-large;
+    font-weight: bold;
+}
