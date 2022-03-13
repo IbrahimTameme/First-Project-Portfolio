@@ -13,7 +13,7 @@
 /*  /////////////////// Background and avatar stying /////////////////////////// */
 .mybg
 {
-    background-image: url(../Images/BG-IMG.jpg);
+    background-image: url(./Images/BG-IMG.jpg);
     width: 100%;
     height: 300px;
     border-bottom: 5px solid #00BFFF;
@@ -83,7 +83,7 @@
 {
     
     text-align: center;
-    font-size: 4vw;
+    font-size: 3vw;
     font-weight: bolder;
     opacity: 95%;
     color: #B0C4DE;
@@ -210,6 +210,7 @@
     border: 4px solid  #B0C4DE;
     background-color: 	#e0e0e034;
     border-radius: 2px;
+    font-size: 20px;
 }
 .experience-box:hover
 {
@@ -276,6 +277,11 @@ i
 {
     flex-direction: column;
     align-items: center;
+ 
+}
+.experience-box
+{
+    font-size: 1vw;
 }
     
 }
