@@ -14,5 +14,5 @@
 ![](./Images/Mockup1.png)
 ### Wireframe 2
 ![](./Images/Wireframe2.png)
-### Mock up 3
+### Mock up 2
 ![](./Images/Mockup2.png)
