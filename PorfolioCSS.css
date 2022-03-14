@@ -313,19 +313,20 @@ footer
     background-color: #16202b;
     
 }
-.parent
+/* .parent
 {
 
     padding: 0%;
     height: 200px;
     display: grid;
+    
 grid-template-columns: repeat(3, 1fr);
 grid-template-rows: repeat(1, 1fr);
 grid-column-gap: 0px;
 grid-row-gap: 0px;
 padding-top: 10px;
 
-}
+} */
 pre , i
 {
     color: #cccccc;
@@ -350,9 +351,12 @@ i
 }
 /* ////////////////// Media justify-content-around //////////////////// */
 
+
+
 @media (max-width: 1024px)
 {
-   
+    
+    
 .study-row
 {
     flex-direction: column;
