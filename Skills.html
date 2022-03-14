@@ -29,27 +29,27 @@
             <div class="skill-title">Technical skills</div>
             <ul class="skills-ul">
                 <li>
-                    HTML
+                    HTML <i class="fa-brands fa-html5 "></i>
                     <div class="pb-border">
                         <div class="pb-state pbcolor1" style="width: 85%;"> 85%</div>
                     </div>
                 </li>
                 <li>
-                    CSS
+                    CSS <i class="fa-brands fa-css3-alt"></i>
                     <div class="pb-border">
                         <div class="pb-state pbcolor1" style="width: 90%;"> 90%</div>
                     </div>
                 </li>
                 <li>
-                    GITHUB
+                    GITHUB <i class="fa-brands fa-github"></i>
                     <div class="pb-border">
-                        <div class="pb-state pbcolor1" style="width: 40%;"> 40%</div>
+                        <div class="pb-state pbcolor1" style="width: 50%;"> 50%</div>
                     </div>
 
                 </li>
                 <li>
-                    JAVASCRIPT
-                    <div class="pb-border">
+                    JAVASCRIPT <i class="fa-brands fa-js"></i>
+                    <div class="pb-border"> 
                         <div class="pb-state pbcolor1" style="width: 60%;"> 60%</div>
                     </div>
                 </li>
@@ -93,10 +93,51 @@
 
     <div class="container skills-bg">
         <div class="title-div"> <p>Job Tracking Form</p></div>
-        <div>
-            <label for="job-title">Job Title</label>
-            <input type="">
-        </div>
+        <form class="job-tracking">
+            <div class="form-group">
+              <label for="exampleInputJobtitle">Job Title :</label>
+              <input type="email" class="form-control" id="exampleInputJobtitle" aria-describedby="emailHelp" placeholder="Jobt itle">
+              
+            </div>
+            <br>
+            <div class="form-group">
+              <label for="exampleInputCompanyName">Company Name :</label>
+              <input type="password" class="form-control" id="exampleInputCompanyname" placeholder="Company name">
+            </div>
+            <br>
+            <label for="exampleInputPassword1">City :</label>
+            <br>
+            <div class="form-check form-check-inline">
+
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                <label class="form-check-label" for="inlineRadio1">Aqaba</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                <label class="form-check-label" for="inlineRadio2">Amman</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
+                <label class="form-check-label" for="inlineRadio3">Other</label>
+              </div>
+              <br>
+              
+              <div>
+              <label for="Date">Job interview date</label>
+              <input type="date"  id="Date">
+            </div>
+            <div class="form-group">
+                <label for="exampleInputNote">Company Name :</label>
+                <input type="text" class="form-control" id="exampleInputNote" placeholder="Job interview note">
+              </div>
+              <br>
+            
+              <button type="submit" class="btn btn-success btn-lg btn-block">Submit</button>
+              <button type="reset" class="btn btn-success btn-lg btn-block">Reset</button>
+          </form>
+
+        </form>
+        
 
     </div>
 

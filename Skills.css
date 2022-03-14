@@ -48,6 +48,12 @@ body
             font-size: 30px;
 
         }
+        .fa-brands
+        {
+            color: black;
+            font-size: medium;
+            margin-left: 1px;
+        }
         .skills-ul
         {
             height: 100%;
@@ -55,6 +61,7 @@ body
         .skills-ul li
         {
             margin-top: 1%;
+            letter-spacing: 1.5px;
         }
         .pb-border
         {
@@ -74,7 +81,11 @@ body
           border-radius: 2px;
           font-size: 1.4vh;
           text-align: center;
+          animation-name: pb-animation;
+          animation-duration: 4s;
         }
+        
+        
         .pbcolor1
         {
             background-color: #e8f318;
@@ -83,4 +94,20 @@ body
         .pbcolor2
         {
             background-color: #4D77FF;
+        }
+        /* /////////////////////// Job Tracking ///////////////////////////// */
+        .job-tracking
+        {
+            margin-top: 5%;
+            margin-left: 13%;
+            width: 70%;
+            padding: 5%;
+            background-color: rgba(250, 251, 252, 0.37);
+            border-radius: 5px;
+        }
+       
+
+        form label
+        {
+            font-size: large;
         }
