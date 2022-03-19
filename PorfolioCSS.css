@@ -160,7 +160,7 @@ html
 .objective-p
 {
     text-align: center;
-    font-size: 4vw;
+    font-size: 3vw;
     padding-top: 30px;
     
 }
@@ -169,6 +169,7 @@ html
 {
     border-top: 5px solid gray;
     border-radius: 3px;
+    
 }
 
 .title .col-4
@@ -180,10 +181,10 @@ html
 {
     
     text-align: center;
-    font-size: 3vw;
+    font-size: 12vw;
     font-weight: bolder;
     opacity: 95%;
-    color: #B0C4DE;
+    color: #353638;
 }
 /* ////////////////// Education-styling //////////////////// */
 .Study-card
@@ -252,12 +253,14 @@ html
 /* ////////////////// Recent-project-styling //////////////////// */
 .card
 {
+    width: 300px;
     height: 450px;
     border-top: 2px solid #666666;
     border-right: #597eaa hidden 2px ;
     border-left: #597eaa hidden 2px ;
     border-bottom: #597eaa hidden 2px ;
     margin-top: 20px;
+    padding: 5px;
     
      
     border-radius: 10px;
@@ -372,6 +375,49 @@ i
     .title-footer
     {
         font-size:medium
+    }
+    .Title-lines
+    {
+        border: hidden;
+    }
+    .Study-card
+    {
+        width: 200px;
+        height: 200px;
+    }
+    .Study-card .title
+    {
+        font-size: large;
+        height: 30px;
+    }
+    .study-text
+    {
+        font-size: smaller;
+    }
+    .Study-card img 
+    {
+        display: none;
+    }
+    .card
+    {
+        width: 200px;
+        height: 350px;
+    }
+    .card .title
+    {
+        font-size: larger;
+    }
+    .card .below-title
+    {
+        font-size: small;
+    }
+    .card a 
+    {
+        font-size: medium;
+    }
+    .card .card-text
+    {
+        font-size: smaller;
     }
    
 }
